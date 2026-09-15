@@ -53,9 +53,10 @@ function benchmarkQueueArchitecture(config) { // TODO
 function validateConcurrentRingInvariant(queue, trace) { // TODO
 }
 function compareQueueImplementations(workload) { // TODO
+}
 function designBackendStreamingQueue(problem) { // TODO
+}
 function designAIInferenceBatchQueue(problem) { // TODO
-
 }
 
 // Mastery gate:
@@ -63,7 +64,7 @@ function designAIInferenceBatchQueue(problem) { // TODO
 // [ ] I can reason about wrap-around and occupancy.
 // [ ] I understand SPSC, MPSC, SPMC, and MPMC models.
 // [ ] I understand slot ownership and publication.
-// [ ] I know why atomic indexes alone are insufficient.
+// [ ] I understand why atomic indexes alone are insufficient.
 // [ ] I can design micro-batching.
 // [ ] I can design backpressure and load shedding.
 // [ ] I understand coalescing queues.
