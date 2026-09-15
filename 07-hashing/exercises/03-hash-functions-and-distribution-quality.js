@@ -50,6 +50,7 @@ function validateCollisionSemantics(keyPairs, hashFunction) { // TODO
 function analyzeHashWorkload(keys, hashFunction, bucketCount) { // TODO
 }
 function designProductionHashingPolicy(requirements) { // TODO
+}
 
 // Derive-before-code:
 // [ ] Hash code vs bucket index
