@@ -94,7 +94,7 @@ function designBackendNetworkTopologyPlanner(requirements) {}
 function designBackendInfrastructureBackbone(requirements) {}
 function designBackendConnectivityPlanner(requirements) {}
 function designBackendClusterLinkPlanner(requirements) {}
-function designAI similarityGraphBackbone(requirements) {}
+function designAISimilarityGraphBackbone(requirements) {}
 function designAIGraphPreprocessing(requirements) {}
 function designAITopologyExtraction(requirements) {}
 function traceFrontierInitialization(graph, start) {}
@@ -143,7 +143,7 @@ module.exports = {
   comparePrimVariants, comparePrimAndKruskalPerformance,
   designBackendNetworkTopologyPlanner, designBackendInfrastructureBackbone,
   designBackendConnectivityPlanner, designBackendClusterLinkPlanner,
-  designAI similarityGraphBackbone, designAIGraphPreprocessing,
+  designAISimilarityGraphBackbone, designAIGraphPreprocessing,
   designAITopologyExtraction, traceFrontierInitialization, tracePrim,
   traceLazyHeap, traceEagerUpdates, traceCutProperty,
   traceExchangeArgument, proveTreeInvariant, proveFrontierInvariant,
